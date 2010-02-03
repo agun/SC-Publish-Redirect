@@ -1,24 +1,24 @@
 This add-on is for ExpressionEngine 2.0 and higher.  It won't work in ExpressionEngine 1.6.x.
 
-h2. Installation
+Installation
 -------------------------
 1. Copy the /third_party/sc_publish_redirect directory into your /system/expressionengine/third_party/ directory.
 2. Login to your EE Control Panel.
 3. Go to Add-ons > Extensions and enable the sc_publish_redirect extension.
 
-h2. Settings
+Settings
 -------------------------
 Once installed, there are a few settings that you might like to play with.  By default, once the extension has been enabled, anytime you Publish, or Edit an entry, when you click the "Save" button, it will return you to the entry edit screen.
 
 There are 3 settings that can be changed:
 
-Select a redirect option
-- Redirect back to entry [default option - returns you to the entry editing screen]
-- Redirect to edit list [returns you to the Edit Channel Entries page]
-- Redirect to publish screen [opens a new publish screen]
-- Custom URL
+---Select a redirect option
+1. Redirect back to entry [default option - returns you to the entry editing screen]
+2. Redirect to edit list [returns you to the Edit Channel Entries page]
+3. Redirect to publish screen [opens a new publish screen]
+4. Custom URL
 
-Custom redirect URL
+---Custom redirect URL
 This field is ignored unless you have selected "Custom URL" from the drop-down list above.  Simply enter any URL in here, and it will redirect to that screen (i.e. if you want it to redirect to the Apple site after saving an entry enter in http://www.apple.com/ ).
 
 Note with this setting you can also use the following variables:
@@ -31,9 +31,9 @@ So therefore you can create custom URLs that redirect to specific places in your
 
 {base}&D=cp&C=content_publish&M=entry_form&channel_id={channel_id}
 
-Success message
+---Success message
 This simply lets you set a custom message to tell users the entry has been saved. This works as long as you redirect users to somewhere in the EE Control Panel.
 
-h2. License
+License
 -------------------------
 This software is freely available under the creative commons license.
