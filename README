@@ -1,12 +1,12 @@
 This add-on is for ExpressionEngine 2.0 and higher.  It won't work in ExpressionEngine 1.6.x.
 
-Installation
+h2. Installation
 -------------------------
 1. Copy the /third_party/sc_publish_redirect directory into your /system/expressionengine/third_party/ directory.
 2. Login to your EE Control Panel.
 3. Go to Add-ons > Extensions and enable the sc_publish_redirect extension.
 
-Settings
+h2. Settings
 -------------------------
 Once installed, there are a few settings that you might like to play with.  By default, once the extension has been enabled, anytime you Publish, or Edit an entry, when you click the "Save" button, it will return you to the entry edit screen.
 
@@ -34,6 +34,6 @@ So therefore you can create custom URLs that redirect to specific places in your
 Success message
 This simply lets you set a custom message to tell users the entry has been saved. This works as long as you redirect users to somewhere in the EE Control Panel.
 
-License
+h2. License
 -------------------------
 This software is freely available under the creative commons license.
