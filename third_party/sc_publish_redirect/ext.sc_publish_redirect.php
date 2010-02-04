@@ -6,7 +6,7 @@
 * @package			SC_Publish_Redirect
 * @version			1.0
 * @author			Andrew Gunstone ~ <andrew@thirststudios.com>
-* @link				http://sassafrasconsulting.com.au/software/sc-publish-redirect/
+* @link				http://sassafrasconsulting.com.au/software/publish-redirect/
 * @license			http://creativecommons.org/licenses/by-sa/3.0/
 */
 
