@@ -60,7 +60,7 @@ class Sc_publish_redirect_ext
 	*
 	* @var	string
 	*/
-	var $docs_url = 'http://sassafrasconsulting.com.au/software/sc-publish-redirect/';
+	var $docs_url = 'http://sassafrasconsulting.com.au/software/publish-redirect/';
 
 	// --------------------------------------------------------------------
 
