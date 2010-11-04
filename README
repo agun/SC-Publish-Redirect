@@ -1,10 +1,18 @@
-This add-on is for ExpressionEngine 2.0 and higher.  It won't work in ExpressionEngine 1.6.x.
+This add-on is for ExpressionEngine 2.x and higher.  It won't work in ExpressionEngine 1.6.x.
 
 Installation
 -------------------------
 1. Copy the /third_party/sc_publish_redirect directory into your /system/expressionengine/third_party/ directory.
 2. Login to your EE Control Panel.
 3. Go to Add-ons > Extensions and enable the sc_publish_redirect extension.
+
+Changelog
+-------------------------
+Version 1.0.1 2010-11-04
+ - Changed priority for extension because it conflicted with Structure Module
+
+Version 1.0 20100111
+ - Initial public release
 
 Settings
 -------------------------
