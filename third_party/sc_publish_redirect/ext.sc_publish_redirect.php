@@ -4,7 +4,7 @@
 * Sassafras Consulting Publish Redirect Extension class
 *
 * @package			SC_Publish_Redirect
-* @version			1.0
+* @version			1.0.1
 * @author			Andrew Gunstone ~ <andrew@thirststudios.com>
 * @link				http://sassafrasconsulting.com.au/software/publish-redirect/
 * @license			http://creativecommons.org/licenses/by-sa/3.0/
@@ -12,6 +12,9 @@
 
 /**
  * Changelog
+ * Version 1.0.1 20101104
+ * --------------------
+ * Changed priority for extension because it conflicted with Structure Module
  * 
  * Version 1.0 20100111
  * --------------------
@@ -39,7 +42,7 @@ class Sc_publish_redirect_ext
 	*
 	* @var	string
 	*/
-	var $version = '1.0';
+	var $version = '1.0.1';
 
 	/**
 	* Extension description
@@ -188,7 +191,7 @@ class Sc_publish_redirect_ext
 				'class'		=> __CLASS__,
 				'method'	=> 'entry_submission_redirect',
 				'hook'		=> 'entry_submission_redirect',
-				'priority'	=> 1,
+				'priority'	=> 5,
 				'version'	=> $this->version,
 				'enabled'	=> 'y',
 				'settings'	=> ''
