@@ -151,19 +151,19 @@ class Sc_publish_redirect_ext
 			switch($redirect_select) 
 			{
 				case 'self':
-					$return_url = '{base}/content_publish/entry_form&channel_id={channel_id}&entry_id={entry_id}';
+					$return_url = cp_url('content_publish/entry_form', array('entry_id' => $entry_id, 'channel_id' => $meta['channel_id']));
 					break;
 				case 'edit':
-					$return_url = '{base}/content_edit';
+					$return_url = cp_url('content_edit');
 					break;
 				case 'publish':
-					$return_url = '{base}/content_publish';
+					$return_url = cp_url('content_publish');
 					break;
 				case 'custom_url':
 					$return_url = $this->settings['redirect_url'];
 					break;
 				default:
-					$return_url = '{base}/content_publish/entry_form&channel_id={channel_id}&entry_id={entry_id}';
+					$return_url = cp_url('content_publish/entry_form', array('entry_id' => $entry_id, 'channel_id' => $meta['channel_id']));
 					break;
 			}
 			
